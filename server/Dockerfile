@@ -7,6 +7,3 @@
 FROM       daiyan/tomcat:7.0.55
 MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
 
-ADD init /init
-
-ENTRYPOINT ["/init", "/scripts/run"]
