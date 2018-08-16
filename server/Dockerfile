@@ -4,6 +4,6 @@
 #
 # Dockerizing HelloWorld: Dockerfile for building HelloWorld images
 #
-FROM       daiyan/tomcat:7.0.55
+FROM       daiyan/tomcat:1.7
 MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
 
