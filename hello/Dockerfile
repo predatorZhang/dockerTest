@@ -7,12 +7,12 @@
 FROM       daiyan/jdk:1.7.0
 MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
 
-ENV MAVEN_VERSION 3.5.0
+ENV MAVEN_VERSION 3.5.4
 ENV MAVEN_HOME /opt/maven
 
-COPY apache-maven-3.5.0-bin.tar.gz /opt/
+COPY apache-maven-3.5.4-bin.tar.gz /opt/
 
-RUN tar xzf /opt/apache-maven-3.5.0-bin.tar.gz -C /opt && \
+RUN tar xzf /opt/apache-maven-3.5.4-bin.tar.gz -C /opt && \
     mv /opt/apache-maven-${MAVEN_VERSION} /opt/maven  && \
     ln -s /opt/maven/bin/mvn /usr/bin/mvn
 
