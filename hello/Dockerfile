@@ -4,7 +4,7 @@
 #
 # Dockerizing maven: Dockerfile for building maven images
 #
-FROM       daiyan/jdk:1.7.0
+FROM       daiyan/jdk:1.7
 MAINTAINER Carson,C.J.Zeong <zcy@nicescale.com>
 
 ENV MAVEN_VERSION 3.5.4
